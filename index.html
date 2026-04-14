@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David — Frontend Developer</title>
+  <meta name="description" content="Frontend developer building sleek, high-performance digital experiences." />
+  <link rel="stylesheet" href="Idea2.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  
+  <div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
+<div class="spotlight"></div>
+
+  <!-- Ambient Background -->
+  <div class="bg-blur blur-1"></div>
+  <div class="bg-blur blur-2"></div>
+  <div class="grid-overlay"></div>
+  <div class="particles" id="particles"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="nav-wrapper">
+      <a href="#home" class="logo">David.</a>
+
+      <nav class="nav" id="nav">
+        <a href="#projects">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+   <div class="actions">
+  <a href="https://github.com/Zener-ui" target="_blank" class="icon-btn" aria-label="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://linkedin.com/in/yourusername" target="_blank" class="icon-btn" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="#contact" class="btn solid">Let’s Talk</a>
+</div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-left reveal">
+        <div class="eyebrow">Frontend Developer • Abuja, Nigeria</div>
+
+    <h1 class="hero-title">
+  I build sleek digital experiences
+  <span class="gradient-text">that feel as good as they function.</span>
+</h1>
+
+        <p>
+          I create modern websites and web apps with a focus on speed,
+          clean UI, smooth interactions, and product-level polish.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn solid">View Projects</a>
+          <a href="#contact" class="btn ghost">Book a Project</a>
+        </div>
+        
+        <div class="social-links hero-socials">
+  <a href="https://github.com/Zener-ui" target="_blank" aria-label="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://x.com/Zener_ui" target="_blank" aria-label="X">
+    <i class="fab fa-x-twitter"></i>
+  </a>
+  <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="blasterbot9@gmail.com" aria-label="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>4+</strong>
+            <span>years, Experience</span>
+          </div>
+          <div>
+            <strong>Fast</strong>
+            <span>Responsive UI</span>
+          </div>
+          <div>
+            <strong>Open</strong>
+            <span>For Freelance</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal delay-1">
+        <div class="hero-card">
+          <div class="window-bar">
+            <span></span><span></span><span></span>
+          </div>
+
+          <div class="hero-ui">
+            <div class="ui-panel large">
+              <p class="ui-label">Featured Build</p>
+              <h3>Luxury Storefront</h3>
+              <p>Elegant commerce interface with product discovery and clean checkout flow.</p>
+            </div>
+
+            <div class="ui-row">
+              <div class="ui-panel small">
+                <p class="ui-label">Stack</p>
+                <h4>React / Tailwind</h4>
+              </div>
+              <div class="ui-panel small">
+                <p class="ui-label">Focus</p>
+                <h4>Speed + UX</h4>
+              </div>
+            </div>
+
+            <div class="code-card">
+              <span>&lt;section class="premium-ui"&gt;</span>
+              <span>  polished interactions</span>
+              <span>  responsive by default</span>
+              <span>&lt;/section&gt;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Credibility Strip -->
+  <section class="credibility reveal">
+    <div class="credibility-track">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Tailwind CSS</span>
+      <span>Framer Motion</span>
+      <span>Responsive Design</span>
+      <span>UI Polish</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="section-container">
+      <div class="section-heading reveal">
+        <p class="section-label">Featured Work</p>
+        <h2>Projects that show how I think.</h2>
+        <p class="section-subtext">
+          A few selected builds focused on product design, interaction quality, and frontend execution.
+        </p>
+      </div>
+
+      <div class="featured-project reveal">
+        <div class="featured-image">
+          <img src="Images/image1.jpeg" alt="Featured project preview">
+        </div>
+        <div class="featured-info">
+          <p class="project-kicker">Featured Project</p>
+          <h3>E-Commerce Experience</h3>
+          <p>
+            A polished storefront built for modern product browsing, seamless cart interactions,
+            and conversion-focused user flow.
+          </p>
+
+          <div class="tags">
+            <span>React</span>
+            <span>Tailwind</span>
+            <span>Stripe</span>
+            <span>Framer Motion</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="#" class="btn solid">Live Demo</a>
+            <a href="#" class="btn ghost">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="Images/image2.jpeg" alt="Dashboard UI project">
+          </div>
+          <div class="project-info">
+            <h3>Analytics Dashboard</h3>
+            <p>
+              Data-driven admin interface with clean layout, responsive charts, and dark UI structure.
+            </p>
+            <div class="tags">
+              <span>Next.js</span>
+              <span>Chart.js</span>
+              <span>Supabase</span>
+            </div>
+            <div class="project-links">
+              <a href="#">Live Demo ↗</a>
+              <a href="#">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-1">
+          <div class="project-image">
+            <img src="Images/image3.jpeg" alt="Agency landing page project">
+          </div>
+          <div class="project-info">
+            <h3>Agency Landing Page</h3>
+            <p>
+              Conversion-focused marketing website with bold messaging, smooth transitions, and mobile-first responsiveness.
+            </p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#">Live Demo ↗</a>
+              <a href="#">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="process" id="process">
+    <div class="section-container">
+      <div class="section-heading reveal">
+        <p class="section-label">How I Build</p>
+        <h2>My frontend standard.</h2>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-card reveal">
+          <span>01</span>
+          <h3>Clean UI</h3>
+          <p>I design interfaces that feel modern, intentional, and easy to use.</p>
+        </div>
+        <div class="process-card reveal delay-1">
+          <span>02</span>
+          <h3>Responsive by Default</h3>
+          <p>Every layout is built to work smoothly across desktop, tablet, and mobile.</p>
+        </div>
+        <div class="process-card reveal delay-2">
+          <span>03</span>
+          <h3>Performance First</h3>
+          <p>I care about load speed, smooth interactions, and overall product feel.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="section-container about-grid">
+      <div class="about-text reveal">
+        <p class="section-label">About Me</p>
+        <h2>More than just code.</h2>
+        <p>
+          I’m a frontend developer focused on building sleek, modern web experiences
+          that balance design, usability, and performance.
+        </p>
+        <p>
+          I enjoy turning rough ideas into polished interfaces that feel premium,
+          responsive, and intuitive to use.
+        </p>
+      </div>
+
+      <div class="about-card reveal delay-1">
+        <h3>What I work with</h3>
+        <div class="skills">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Tailwind</span>
+          <span>Git/GitHub</span>
+          <span>Framer Motion</span>
+          <span>UI/UX Design</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <div class="contact-card reveal">
+        <p class="section-label">Let’s Build</p>
+        <h2>Have a project in mind?</h2>
+        <p>
+          If you need a clean, modern website or frontend build,
+          I’m open to freelance work and creative collaborations.
+        </p>
+
+    <div class="contact-buttons">
+  <a href="blasterbot9@gmail.com" class="btn solid">
+    <i class="fas fa-envelope"></i> Email Me
+  </a>
+  <a href="https://github.com/Zener-ui" target="_blank" class="btn ghost">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+  <a href="https://linkedin.com/in/yourusername" target="_blank" class="btn ghost">
+    <i class="fab fa-linkedin-in"></i> LinkedIn
+  </a>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h3>David.</h3>
+      <p>Frontend developer building sleek digital experiences.</p>
+    </div>
+
+    <div class="social-links footer-socials">
+      <a href="https://github.com/Zener-ui" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://x.com/Zener_ui" target="_blank" aria-label="X">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="blasterbot9@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </div>
+
+  <p class="footer-copy">© 2026 David. All rights reserved.</p>
+</footer>
+
+  <script src="Idea2.js"></script>
+</body>
+</html>
